@@ -72,7 +72,9 @@ header {
 
 footer {
     display: grid;
+    float: inline-start;
     padding: 2rem 1rem;
+    width: 97.9%;
     gap: 2.5rem;
     background-color: #CFCFFF;
     margin: auto;
@@ -118,7 +120,7 @@ footer {
 }
 
 /*Tabla*/
-.señal {
+.pastel {
     border: white;
     border-collapse: collapse;
     background: linear-gradient(#e9b4c8, #DDC5E7);
