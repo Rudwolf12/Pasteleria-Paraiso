@@ -1,0 +1,145 @@
+body {
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #F5D2D3;
+}
+
+/*Secciones de la página*/
+header {
+    gap: 1rem;
+    display: grid;
+    width: 100%;
+    background-color: #CFCFFF;
+    margin: auto;
+    height: 125px;
+    grid-template-areas: "logo1 nav1";
+}
+
+.header_top {
+   text-align: left;
+   grid-area: logo1;
+}
+
+#Incono {
+    float: inline-start;
+    width: 75px;
+}
+
+/*Menú de navegación*/
+.header_main {
+    grid-area: nav1;
+    position: absolute;
+    right: 0;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    
+}
+ 
+.header_nav li {
+    display: inline-flex;
+    list-style: none;
+}
+ 
+.header_nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+ 
+.header_nav ul a:hover {
+    color: gray;
+}
+
+.menu {
+    padding: auto;
+    background-color: #F5D2D3;
+    margin: auto;
+}
+
+.contact {
+    padding: auto;
+    background-color: #F5D2D3;
+    margin: auto;
+}
+
+footer {
+    display: grid;
+    padding: 2rem 1rem;
+    gap: 2.5rem;
+    background-color: #CFCFFF;
+    margin: auto;
+    grid-template-areas: "logo2 nav2" "Rud Rud";
+}
+
+.footer_top {
+    text-align: left;
+    grid-area: logo2;
+ }
+ 
+ .footer_Rud {
+    text-align: left;
+    grid-area: Rud;
+    align-items: center;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    padding-top: 1.5rem;
+}
+ 
+ /*Menú de navegación*/
+.footer_main {
+    grid-area: nav2;
+    position: absolute;
+    right: 0;
+}
+
+.footer_nav li {
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer_nav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer_nav ul a:hover {
+    color: gray;
+}
+
+/*Tabla*/
+.señal {
+    border: white;
+    border-collapse: collapse;
+    background: linear-gradient(#e9b4c8, #DDC5E7);
+    width: 50vw;
+}
+
+tr, td{
+    color: #8b0f8b88;
+    border: 1px solid;
+    width: 200px;
+    padding: 10px 15px;
+}
+
+td {
+    width: 200px;
+}
+
+div {
+    margin: 25px;
+}
+
+.Producto {
+    width: 300px;
+}
