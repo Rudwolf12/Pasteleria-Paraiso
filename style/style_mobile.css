@@ -5,9 +5,22 @@
 
     header{
         display: flex;
+        width: 100%;
+    }
+
+    .header_main {
+        position:sticky;
+    }
+
+    #Incono {
+        width: 40px;
     }
 
     footer{
         display: flex;
+        width: 100%;
+    }
+    .Producto {
+        width: 150px;
     }
 }
