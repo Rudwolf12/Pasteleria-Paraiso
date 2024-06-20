@@ -87,7 +87,7 @@ footer {
  }
  
  .footer_Rud {
-    text-align: left;
+    text-align: center;
     grid-area: Rud;
     align-items: center;
     border-top: 1px solid gray;
@@ -98,6 +98,7 @@ footer {
 }
  
  /*Menú de navegación*/
+ 
 .footer_main {
     grid-area: nav2;
     position: absolute;

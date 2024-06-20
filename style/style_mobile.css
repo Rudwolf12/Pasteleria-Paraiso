@@ -1,15 +1,12 @@
 @media only screen and (max-width: 800px) {
     body{
         font-size: small;
+        text-align: center
     }
 
     header {
-        gap: 1rem;
-        display: grid;
-        width: 100%;
-        background-color: #CFCFFF;
-        margin: auto;
         height: 150px;
+        width: 100vw;
         grid-template-areas: "logo1" "nav1 nav1";
     }
 
@@ -23,10 +20,18 @@
 
     footer{
         display: flex;
-        width: 100%;
+    }
+
+    .footer_main {
+        position: sticky;
+        text-align: center;
+    }
+
+    .footer_rud{
+        text-align: center;
     }
 
     .Producto {
-        width: 50px;
+        width: 20vw;
     }
 }
