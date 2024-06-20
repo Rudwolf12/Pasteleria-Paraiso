@@ -3,9 +3,14 @@
         font-size: small;
     }
 
-    header{
-        display: flex;
+    header {
+        gap: 1rem;
+        display: grid;
         width: 100%;
+        background-color: #CFCFFF;
+        margin: auto;
+        height: 150px;
+        grid-template-areas: "logo1" "nav1 nav1";
     }
 
     .header_main {
@@ -20,7 +25,8 @@
         display: flex;
         width: 100%;
     }
+
     .Producto {
-        width: 150px;
+        width: 50px;
     }
 }
