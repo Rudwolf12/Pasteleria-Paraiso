@@ -10,28 +10,19 @@ body {
 
 /*Secciones de la página*/
 header {
-    gap: 1rem;
-    display: grid;
-    width: 100%;
+    display: flex;
     background-color: #CFCFFF;
+    padding: auto;
     margin: auto;
-    height: 125px;
-    grid-template-areas: "logo1 nav1";
-}
-
-.header_top {
-   text-align: left;
-   grid-area: logo1;
 }
 
 #Incono {
-    float: inline-start;
+    float: left;
     width: 75px;
 }
 
 /*Menú de navegación*/
-.header_main {
-    grid-area: nav1;
+.header_nav {
     position: absolute;
     right: 0;
 }
@@ -44,8 +35,8 @@ header {
 }
  
 .header_nav li {
-    display: inline-flex;
     list-style: none;
+    display: inline-flex;
 }
  
 .header_nav a {
@@ -56,6 +47,14 @@ header {
  
 .header_nav ul a:hover {
     color: gray;
+}
+
+#menu {
+    display: none;
+}
+
+.menu_drop {
+    display: none;
 }
 
 .menu {
@@ -71,13 +70,10 @@ header {
 }
 
 footer {
-    display: grid;
-    float: inline-start;
-    padding: 2rem 1rem;
-    width: 97.9%;
-    gap: 2.5rem;
+    display: flex;
     background-color: #CFCFFF;
     margin: auto;
+    padding: auto;
     grid-template-areas: "logo2 nav2" "Rud Rud";
 }
 
@@ -98,7 +94,6 @@ footer {
 }
  
  /*Menú de navegación*/
- 
 .footer_main {
     grid-area: nav2;
     position: absolute;
@@ -113,7 +108,7 @@ footer {
 .footer_nav a{
     padding: 14px 16px;
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .footer_nav ul a:hover {
@@ -135,14 +130,10 @@ tr, td{
     padding: 10px 15px;
 }
 
-td {
-    width: 200px;
-}
-
 div {
     margin: 25px;
 }
 
 .Producto {
-    width: 300px;
+    width: 25vw;
 }

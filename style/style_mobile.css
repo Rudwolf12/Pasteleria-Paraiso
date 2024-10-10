@@ -1,37 +1,59 @@
 @media only screen and (max-width: 800px) {
-    body{
-        font-size: small;
-        text-align: center
+    body {
+        font-size: smaller;
     }
 
     header {
-        height: 150px;
-        width: 100vw;
-        grid-template-areas: "logo1" "nav1 nav1";
+        font-size: x-small;
     }
 
-    .header_main {
-        position:sticky;
-    }
+    .header_nav {
+        display: none;
+    }  
 
     #Incono {
-        width: 40px;
+        width: 55px;
     }
 
-    footer{
+    #menu {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 10px;
+    }
+
+    .menu_drop {
+        position: fixed;
+        top: 110px;
+        right: 0; 
+        margin: auto;
+    }
+    
+    .menu_drop ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+    }
+     
+    .menu_drop li {
+        list-style: none;
+        background-color: #CFCFFF;
+        padding: 10px;
+    }
+     
+    .menu_drop a {
+        margin: auto;
+        text-decoration: none;
+        color: black;
+        
+    }
+     
+    .menu_drop ul a:hover {
+        color: gray;
+    }
+
+    footer {
         display: flex;
-    }
-
-    .footer_main {
-        position: sticky;
-        text-align: center;
-    }
-
-    .footer_rud{
-        text-align: center;
-    }
-
-    .Producto {
-        width: 20vw;
+        margin: auto;
     }
 }
